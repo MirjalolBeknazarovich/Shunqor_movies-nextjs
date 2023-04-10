@@ -5,9 +5,6 @@ import { getList } from 'src/helpers/lists';
 import { IMovie, MyList, Product } from 'src/interfaces/app.interfaces';
 import { API_REQUEST } from 'src/services/api.service';
 import { useInfoState } from 'src/store';
-import { useEffect } from 'react'
-import { AuthContext } from 'src/context/auth.context';
-import { useContext } from 'react';
 
 
 export default function Home({trending, topRated, tv_top_rated, popular, documentary, comedy, family, history,  products, subscription, list }: HomeProps):JSX.Element {
